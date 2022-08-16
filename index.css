@@ -4,6 +4,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: #514949;
 
 }
 
@@ -358,4 +359,96 @@ footer {
     }
 
 
+}
+
+@media only screen and (min-width: 992px) {
+    body{
+        background-image: none;
+    }
+    .offer {
+        display: flex;
+        flex-direction: row;
+    
+        width: 100%;
+        justify-content: space-around;
+        background: url(./image/right_yz6hn3.png),  url(./image/left_bvmv7q.png);
+        background-position: right, left;
+        background-size: 30%, 30%;
+        background-repeat: no-repeat, no-repeat;
+        
+      
+    }
+    
+    .containermain{
+        background: url(./image/hero-bg.svg);
+        background-repeat: no-repeat;
+    }
+
+    
+
+    .offer .training .im img {
+        width: 100%;
+    }
+
+    .training{
+        width: 30%;
+       
+        
+
+    }
+
+    .social{
+        align-content: center;
+        width: 20%;
+        position: relative;
+        right: 20px;
+    
+      
+        
+
+    }
+
+   .social h3{
+        text-align: left;
+        text-align: start;
+       
+        width: 30%;
+
+    }
+    .contact{
+       
+        width: 20%;
+        align-items: flex-start;
+        margin-right: 0;
+    
+
+
+    }
+
+    .contact a {
+        line-height: 3em;
+    }
+.socialicon{
+    width: 30%;
+    margin: 0%;
+}
+
+.info .bx{
+     width: 20%;
+
+}
+
+ footer .info .logo img {
+    width: 50%;
+}
+
+
+.link{
+    align-items: flex-start;
+}
+
+footer .info .link a p{
+    color: #e7332b;
+    line-height: 2em;
+}
 }
