@@ -1,84 +1,304 @@
-*{
+* {
     font-family: Averta, sans-serif;
-    overflow: hidden;
+
     box-sizing: border-box;
-    
+    padding: 0;
+    margin: 0;
+
 }
 
-.containermain{
+.containermain {
     height: 100vh;
-    border: 1px solid blue;
+    width: 95%;
+    margin: auto;
+    min-width: 350px;
+
 }
 
-body{
+body {
     background-image: url(../image/hero-bg.svg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
-.logonav img{
-   
-    width: 20%;
+.logonav img {
+
+    width: 30%;
+    max-width: 100px;
     /* border: 1px solid grey; */
-    
-  
+
+
 }
 
-.logonav{
+.logonav {
     /* border: 1px solid green; */
     display: flex;
     justify-content: center;
-    margin-top: 20%;
+    margin-top: 5rem;
 }
 
-.mainpage{
+.mainpage {
     /* border: 1px solid green; */
-    margin: 20% auto;
+
     width: 100%;
+    margin: 5rem auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
- .mainpage p{
+
+.mainpage p {
     text-align: center;
- }
+    color: #514949;
+    opacity: 0.9;
 
-.mainpage .buttons{
+}
+
+.mainpage h1 {
+    color: #514949;
+    line-height: 212.5%;
+    margin-bottom: 36px;
+
+}
+
+.mainpage .buttons {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
+    margin: 6em auto;
 }
 
-.buttons #new{
-    margin: 3%;
-    width: 40%;
-    padding: 2%;
+.buttons #new {
+    margin: 1rem;
+    width: 60%;
+    padding: 1rem;
     color: white;
     background-color: #e7332b;
     border: none;
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
 
 }
-.buttons #experience{
+
+.buttons #experience {
     margin: 3%;
-    width: 45%;
-    padding: 2%;
+    width: 70%;
+   
+    padding: 1em;
     border: solid 1px #e7332b;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    max-width: 350px;
+   
 
 }
 
-a{
+
+
+
+a {
     text-decoration: none;
     color: #e7332b;
 }
 
-a:hover{
+a:hover {
     cursor: pointer;
 }
 
-.programs{
-    border: solid red 1px;
+.programs {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
 }
 
+
+.statement {
+    width: 100%;
+
+
+}
+
+.statement p {
+    text-align: center;
+    font-size: 137.5%;
+    margin-bottom: 4rem;
+}
+
+.statement h5 {
+    padding: 5%;
+    text-align: center;
+    font-size: 87.5%;
+    color: #e7332b;
+
+}
+
+.training {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+
+    margin: 3em auto;
+    background-color: #fffafa;
+    fill: 212529;
+}
+
+
+
+.training p {
+    margin: 3em 0;
+    opacity: 0.9;
+    width: 85%;
+    line-height: 1.5rem;
+
+
+}
+
+.training .im {
+    width: 40%;
+    height: 10vh;
+
+    margin-bottom: 3em;
+}
+
+.training .im img {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.info div {
+    margin: 2em;
+
+
+}
+
+footer {
+    margin-top: 7em;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link p {
+    margin-top: .4em;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.contact p {
+    text-align: center;
+    margin-top: .6em;
+}
+
+.contact p br {
+    text-align: center;
+    margin-top: .6em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialicon {
+    display: flex;
+    width: 40%;
+}
+
+.socialicon img {
+    width: 60%;
+}
+
+.line{
+    border-top: .7px solid;
+    margin:  2em 0;
+    opacity: 0.2;
+}
+
+.copyright{
+   
+    font-weight: bold;
+    margin: 4em 0;
+    color: #514949;
+    font-size: .8em;
+    padding-bottom: 2em;
+}
+    
+.copyright p{
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px){
+
+    .logonav img{
+        width: 20%;
+    }
+
+    .mainpage h1 {
+        font-size: 2em;
+
+    }
+
+    .training .im img{
+        width: 50%;
+    }
+
+    .training p {
+        width: 95%;
+    }
+
+    .socialicon{
+        width: 15%;
+    }
+    .socialicon img{
+        width: 70%;
+    }
+
+    .info  div h3{
+        font-size: 1.6em;
+        color: #514949;
+    }
+    .line{
+        margin:  0em 0;
+    }
+    .copyright{
+        font-size: 1em;}
+      
+    
+   .logo img{
+    width: 25%;
+
+   }
+}
+
+@media only screen and (min-width: 769px){
+    
+}
