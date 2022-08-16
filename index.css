@@ -79,21 +79,21 @@ body {
     border: none;
     display: flex;
     justify-content: center;
-    max-width: 300px;
+    max-width: 250px;
 
 }
 
 .buttons #experience {
     margin: 3%;
     width: 70%;
-   
+
     padding: 1em;
     border: solid 1px #e7332b;
     background-color: white;
     display: flex;
     justify-content: center;
-    max-width: 350px;
-   
+    max-width: 300px;
+
 
 }
 
@@ -237,28 +237,28 @@ footer {
     width: 60%;
 }
 
-.line{
+.line {
     border-top: .7px solid;
-    margin:  2em 0;
+    margin: 2em 0;
     opacity: 0.2;
 }
 
-.copyright{
-   
+.copyright {
+
     font-weight: bold;
     margin: 4em 0;
     color: #514949;
     font-size: .8em;
     padding-bottom: 2em;
 }
-    
-.copyright p{
+
+.copyright p {
     text-align: center;
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px) {
 
-    .logonav img{
+    .logonav img {
         width: 20%;
     }
 
@@ -267,7 +267,7 @@ footer {
 
     }
 
-    .training .im img{
+    .training .im img {
         width: 50%;
     }
 
@@ -275,30 +275,87 @@ footer {
         width: 95%;
     }
 
-    .socialicon{
+    .socialicon {
         width: 15%;
     }
-    .socialicon img{
+
+    .socialicon img {
         width: 70%;
     }
 
-    .info  div h3{
+    .info div h3 {
         font-size: 1.6em;
         color: #514949;
     }
-    .line{
-        margin:  0em 0;
-    }
-    .copyright{
-        font-size: 1em;}
-      
-    
-   .logo img{
-    width: 25%;
 
-   }
+    .line {
+        margin: 0em 0;
+    }
+
+    .copyright {
+        font-size: 1em;
+    }
+
+
+    .logo img {
+        width: 25%;
+
+    }
 }
 
-@media only screen and (min-width: 769px){
-    
+@media only screen and (min-width: 769px) {
+    .mainpage p {
+        margin: 0 2em;
+    }
+
+    .mainpage .buttons {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+        justify-content: center;
+    }
+
+    .offer .training .im img {
+        width: 45%;
+    }
+
+    footer {
+        margin-top: 15em;
+    }
+
+
+    footer .info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        align-items: flex-start;
+        align-content: flex-start;
+
+    }
+
+    footer .info h3 {
+        font-size: 1em;
+    }
+
+    footer .info .logo img {
+        width: 100%;
+
+    }
+
+    .info .social {
+        margin-right: 0em;
+
+        width: 25%;
+
+
+    }
+
+    .socialicon {
+
+        width: 60%;
+    }
+
+
 }
