@@ -27,13 +27,11 @@ body {
 
     width: 30%;
     max-width: 100px;
-    /* border: 1px solid grey; */
-
 
 }
 
 .logonav {
-    /* border: 1px solid green; */
+
     display: flex;
     justify-content: center;
     margin-top: 5rem;
