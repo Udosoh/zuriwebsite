@@ -218,6 +218,7 @@
 .whycards{
     display: flex;
     flex-direction: column;
+    background-color: #fffdf5;
 }
 
 .whycards .left{
@@ -241,7 +242,7 @@
     margin: 0 1rem 1rem 1rem ;
 }
 
-.middle .card1 {
+ .card1 {
     background-color: #e7332b;
     border-radius: 1.1em;
     box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
@@ -249,25 +250,46 @@
     position: relative;
     width: 291px;
     height: 286px;
+    display: flex;
+    align-self: center;
+    
+ 
+    
+}
+ .card {
+    background-color: #ffffff;
+    border-radius: 1.1em;
+    box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
+    color: white;
+    position: relative;
+    width: 291px;
+    height: 286px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    margin: 1em;
     
  
     
 }
 
-.middle .card1::before{
+.middle .card::before{
     content: "";
     background-image: url(./imagnew/curve1.png);
     z-index: 2000;
     width: 291px;
     height: 100px;
+    
     display: block;
     position: absolute;
 
     background-repeat: no-repeat;
-    background-size: 24%;
+    background-size: 30%;
+   
 
-    background-position: 13.8em 0;
-    z-index: 222499;
+    background-position: 12.8em 0em;
+    z-index: 2;
+   
     
     
 }
@@ -275,20 +297,162 @@
 
 
 
-.middle .card1 .text{
+.middle .card .text{
     display: flex;
     flex-direction: column;
     background-color:#e7332b;
     padding: 2em 4em 1em 1em;
     background-color: #e7332b;
+    border-radius: 1.1em;
 
 
 } 
-.middle .card1 .text h1, 
-.middle .card1 .text h2,
-.middle .card1 .text p{
+ .card .text{
+    display: flex;
+    flex-direction: column;
+    background-color:#ffffff;
+    padding: 2em 4em 1em 1em;
+    
+    border-radius: 1.1em;
+
+
+} 
+
+
+ .card .text h1, 
+ .card .text h2,
+ .card .text p{
  align-self: start;
- color: white;
+ color: #1b1a20;
+ text-align: start;
+ margin: .4em;
 
 }
+
+.card1 .text h1, 
+.card1 .text h2,
+.card1 .text p{
+align-self: start;
+color: white;
+text-align: start;
+margin: .4em;
+
+}
+
+.card .text p{
+    font-size: 1.1em;
+}
+
+.card2::before{
+    content: "";
+    background-image: url(./imagnew/curve.svg);
+    z-index: 2000;
+    width: 291px;
+    height: 100px;
+    
+    display: block;
+    position: absolute;
+
+    background-repeat: no-repeat;
+    background-size: 30%;
+   
+
+    background-position: 12.8em 0em;
+    z-index: 2;
+   
+    
+    
+}
+
+.card3::before{
+    content: "";
+    background-image: url(./imagnew/curve3.svg);
+    z-index: 2000;
+    width: 291px;
+    height: 100px;
+    
+    display: block;
+    position: absolute;
+
+    background-repeat: no-repeat;
+    background-size: 30%;
+   
+
+    background-position: 12.8em 0em;
+    z-index: 2;
+   
+    
+    
+}
+
+.card4::before{
+    content: "";
+    background-image: url(./imagnew/curve4.svg);
+    z-index: 2000;
+    width: 291px;
+    height: 100px;
+    
+    display: block;
+    position: absolute;
+
+    background-repeat: no-repeat;
+    background-size: 30%;
+   
+
+    background-position: 12.8em 0em;
+    z-index: 2;
+   
+    
+    
+}
+
+.card5::before{
+    content: "";
+    background-image: url(./imagnew/curve6.svg);
+    z-index: 2000;
+    width: 291px;
+    height: 100px;
+    
+    display: block;
+    position: absolute;
+
+    background-repeat: no-repeat;
+    background-size: 30%;
+   
+
+    background-position: 12.8em 0em;
+    z-index: 2;
+   
+    
+    
+}
+
+.card6::before{
+    content: "";
+    background-image: url(./imagnew/curve5.svg);
+    z-index: 2000;
+    width: 291px;
+    height: 100px;
+    
+    display: block;
+    position: absolute;
+
+    background-repeat: no-repeat;
+    background-size: 30%;
+   
+
+    background-position: 12.8em 0em;
+    z-index: 2;
+   
+    
+    
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 
