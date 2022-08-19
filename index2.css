@@ -5,11 +5,13 @@
 }
 
 .navblock {
-    width: 100%;
-    min-width: 300px;
+    width: 90%;
+    /* min-width: 300px; */
     position: fixed;
-  
+
     padding: 1em;
+    z-index: 3000;
+    background-color: white;
 
 }
 
@@ -35,20 +37,26 @@
 
 }
 
+.right {
+    display: none;
+}
+
+
+
 
 
 
 
 .navbar nav div .circle button::before {
     content: "";
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     display: block;
     background-color: #e7332b;
     position: absolute;
     top: -.8em;
-    right: 10.4em;
-    
+    right: 6.4em;
+
     border-radius: 30em;
     background-image: url(./imagnew/thumbs.png);
     background-size: 70%;
@@ -63,37 +71,224 @@
     background-color: #e7332b;
     /* color: white; */
     border: none;
-    height: 40px;
-    width: 150px;
+    height: 30px;
+    width: 100px;
     border-radius: 1em;
     padding: 1em;
     display: block;
     position: relative;
-    
-    
+
+
 }
 
-#cc a{
+#cc a {
     position: relative;
     display: block;
     color: white;
-    font-size: 1.3em;
+    font-size: 1em;
     display: flex;
     align-content: center;
     justify-content: center;
-   
-    top: -.27em;
+
+    top: -.5em;
     left: -.32em;
-   
+
 }
 
 .navblock .navbar .logo {
 
-    
+
     width: 50%;
 }
 
-.navblock .navbar nav{
+.navblock .navbar nav {
     width: 30%;
-   
+
 }
+
+.left {
+    display: flex;
+    justify-content: center;
+}
+
+.left img {
+    width: 80%;
+
+
+
+}
+
+.middle {
+
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7em;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle .text p {
+    color: #e7332b;
+    text-align: center;
+    margin: 2em 0 1em 0;
+}
+
+.middle .text h1 {
+    text-align: center;
+}
+
+#kk {
+    color: #1b1a20;
+}
+
+.enroll {
+    align-self: center;
+}
+
+.middle .enroll img {
+    width: 50px;
+    position: relative;
+    left: 9em;
+}
+
+.enroll a {
+    background-color: #e7332b;
+    padding: 1em;
+    display: flex;
+    width: 160px;
+    border-radius: 1em;
+    align-self: center;
+    color: white;
+
+    justify-content: center;
+
+
+}
+
+.middle img {
+    width: 100px;
+    position: relative;
+
+    left: 4em
+}
+
+.line {
+    border-top: 1px solid rgba(0, 0, 0, 0.219);
+    width: 90%;
+    margin: 1em auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+}
+
+.wrapper{
+    margin: 1em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper img{
+    width: 50%;
+}
+
+.wrapper p, .wrapper h1{
+    text-align: center;
+}
+.wrapper h1{
+    font-size: 1.3em;
+}
+
+#green{
+    color: green;
+}
+
+.whycards .right{
+    display: none;
+}
+
+.whycards{
+    display: flex;
+    flex-direction: column;
+}
+
+.whycards .left{
+    display: flex;
+    flex-direction: column;
+}
+
+.whycards .left img{
+    width: 60px;
+    display: flex;
+    align-self: center;
+}
+
+.whycards .left h4{
+    color: #e7332b;
+   margin: 0 1em;
+}
+
+.whycards .left h1{
+    font-size: 1.4rem;
+    margin: 0 1rem 1rem 1rem ;
+}
+
+.middle .card1 {
+    background-color: #e7332b;
+    border-radius: 1.1em;
+    box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
+    color: white;
+    position: relative;
+    width: 291px;
+    height: 286px;
+    
+ 
+    
+}
+
+.middle .card1::before{
+    content: "";
+    background-image: url(./imagnew/curve1.png);
+    z-index: 2000;
+    width: 291px;
+    height: 100px;
+    display: block;
+    position: absolute;
+
+    background-repeat: no-repeat;
+    background-size: 24%;
+
+    background-position: 13.8em 0;
+    z-index: 222499;
+    
+    
+}
+
+
+
+
+.middle .card1 .text{
+    display: flex;
+    flex-direction: column;
+    background-color:#e7332b;
+    padding: 2em 4em 1em 1em;
+    background-color: #e7332b;
+
+
+} 
+.middle .card1 .text h1, 
+.middle .card1 .text h2,
+.middle .card1 .text p{
+ align-self: start;
+ color: white;
+
+}
+
