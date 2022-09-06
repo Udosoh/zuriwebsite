@@ -245,12 +245,12 @@
 }
 
 
- 
+
 
 
 
 .card {
-    background-color:#ffffff;
+    background-color: #ffffff;
     border-radius: 1.1em;
     box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
     color: white;
@@ -300,7 +300,7 @@
 
 }
 
-.card .text  {
+.card .text {
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
@@ -562,7 +562,7 @@
 }
 
 .redbg .right {
- 
+
     width: 100%;
 }
 
@@ -574,10 +574,10 @@
 }
 
 .redbg .right .dot {
-    
+
     width: 12%;
-   margin: 1em;
-   
+    margin: 1em;
+
 
 }
 
@@ -596,30 +596,58 @@
 
 }
 
-.scope{
+.scope .text .image img {
+    width: 50%;
+    display: flex;
+    justify-self: center;
+}
+
+.scope .text .image {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.scope .text .words h4 {
+    color: #e7332b;
+    font-size: 1.3em;
+    font-weight: 300;
+    margin-bottom: .3em;
+}
+
+.scope .text .words h1 {
+    color: #1b1a20;
+    font-size: 1.7em;
+
+
+}
+
+
+.scope {
     background-color: #fffdf5;
     display: flex;
     flex-direction: column;
 }
 
-.scope .cards{
+.scope .cards {
     display: flex;
     flex-direction: column;
-    
+
 }
 
-.scope .cards .up{
+.scope .cards .up {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.scope .cards .down{
+.scope .cards .down {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
 }
-.scopecard{
+
+.scopecard {
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -630,33 +658,105 @@
     border-radius: 2em;
 }
 
-.scopecard .icons{
+.scopecard .icons {
     height: 50px;
     margin: 1em 0;
 }
 
-.scopecard .icons img{
+.scopecard .icons img {
     width: 60px;
     height: 55px;
 }
 
-.scopecard p{
+.scopecard p {
     line-height: 1.3em;
     font-size: 1.16em;
     color: #1b1a20ad;
     letter-spacing: 0.6px;
-    
-    padding:40px 0px 30px;
+
+    padding: 40px 0px 30px;
 }
 
-.scopecard h2{
+.scopecard h2 {
     color: #1b1a20e3;
 
 }
-.scope .text .words{
+
+.scope .text .words {
     margin: 4em 1em;
 }
 
-.scope .text .words p{
+.enroll a {
+    background-color: #e7332b;
+    color: #ffffff;
+    margin: 1em;
+    border-radius: 2em;
+    font-size: 1.2em;
+    font-weight: 6o0;
 
 }
+
+
+
+
+.FAQ .up {
+    background-image: url(./imagnew/section7wire.svg);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 7em 2em;
+
+}
+
+
+.FAQ .up .text {
+    padding-top: 5em;
+}
+
+.FAQ .up .text p {
+    color: #e7332b;
+    font-size: 1.3rem;
+
+}
+
+.FAQ .up .text h1 {
+    margin: 0em 3em;
+    text-align: center;
+
+}
+
+.FAQ .middle{
+    display: flex;
+}
+
+
+.FAQ .middle .container{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.FAQ .middle .container .div {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+    display: flex;
+}
+
+.FAQ .middle .container .div .messagecol{
+    width: 90%;
+    padding: 1.5em;
+}
+
+.FAQ .middle .container .div .plus{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.hidden{
+    display: none;
+   
+}
+
+
+
