@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'ubuntu', sans-serif;
 }
 
 .navblock {
@@ -726,7 +727,9 @@
 
 .FAQ .middle{
     display: flex;
-}
+    
+
+} 
 
 
 .FAQ .middle .container{
@@ -737,25 +740,84 @@
 .FAQ .middle .container .div {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-
+    flex-direction: column;
     display: flex;
+} 
+
+
+
+
+
+
+.hidden{ 
+    transition: 0.2s ease;
+    max-height: 0;
+    overflow: hidden;
+    margin: 0em 3em 1em 1em;
+    
+   
+} 
+
+.FAQ .middle .container .FAQS.active .hidden{
+    max-height: 300px;
+    transition: 1s ease;
+    display: flex;
+    width: 85%;
+    margin: 0em 3em 1em 1em;
 }
 
-.FAQ .middle .container .div .messagecol{
-    width: 90%;
-    padding: 1.5em;
+.messagecol{
+   display: flex;
+
 }
 
-.FAQ .middle .container .div .plus{
+.messagecol p{
+    width: 85%;
     display: flex;
+    padding: 1em;
+    font-size: 1.2rem;
+    
+}
+
+.messagecol div{
+    display: flex;
+ align-items: center;
+}
+
+.FAQ .middle .container .FAQS.active .fa-solid{
+    transform: rotate(180deg);
+    transition: 0.4s;
+}
+
+.fa-solid{
+    transition: 0.4s;
+}
+
+.FAQ .down{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
+.FAQ .down a{
+    background: #e7332b;
+    border-radius: 2em;
+    color: white;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    padding: .6em;
+    width: 200px;
+    
+}
 
-
-.hidden{
-    display: none;
+.FAQ .down a P{
    
+    align-self: center;
+
+
+
+
 }
 
 

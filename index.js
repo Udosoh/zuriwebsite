@@ -1,15 +1,21 @@
 "use strict"
+ 
+const FAQ = document.querySelectorAll('.FAQS')
 
-const maincolumn = document.querySelectorAll('.messagecol')
-const lowerText= document.querySelector('.lowercol')
+FAQ.forEach(element => {
+    element.addEventListener("click",()=>{
+        element.classList.toggle("active")
+        element.classList.toggle("rotate")
+    })
+    
+});
+   
 
 
-for (let i = 0; i < maincolumn.length; i++) {
-  const element = maincolumn[i];
-  element.addEventListener('click', function(){
-    lowerText.classList.Toggle('hidden')
-  })
-  }
+
+
+
+
   
 
  
