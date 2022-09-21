@@ -9,6 +9,10 @@ FAQ.forEach(element => {
     })
     
 });
+
+const dee = document.querySelector(".card::before");
+
+
    
 
 
